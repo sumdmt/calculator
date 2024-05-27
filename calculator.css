@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  min-height: 100vh;
+}
+section {
+  position: relative;
+  width: 390px;
+  height: 600px;
+  background-color: black;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner {
+  position: relative;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  height: 80px;
+  font-size: 2em;
+  text-align: right;
+  background: orange;
+  bottom: 200px;
+  border: none;
+  outline: none;
+  float: left;
+  left: 15px;
+}
+.first {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  height: 360px;
+  background: black;
+  top: 40px;
+  border-radius: 20px;
+}
+button {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  font-size: 2em;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+.equal {
+  bottom: 10px;
+  right: 200px;
+  top: 360px;
+  width: 160px;
+  background: orange;
+  color: white;
+}
+.clear {
+  top: 360px;
+  right: 30px;
+  background: orange;
+  color: white;
+  width: 160px;
+}
+.one {
+  top: 10px;
+  right: 300px;
+}
+.two {
+  top: 10px;
+  right: 210px;
+}
+.three {
+  top: 10px;
+  right: 120px;
+}
+.plus {
+  top: 100px;
+  right: 30px;
+  height: 60px;
+  background: orange;
+  color: white;
+}
+.four {
+  top: 100px;
+  right: 300px;
+}
+.five {
+  top: 100px;
+  right: 210px;
+}
+.six {
+  top: 100px;
+  right: 120px;
+}
+.minus {
+  bottom: 290px;
+  right: 30px;
+  background: orange;
+  color: white;
+}
+.dot {
+  top: 280px;
+  right: 120px;
+  background: orange;
+  color: white;
+}
+.seven {
+  top: 190px;
+  right: 300px;
+}
+.eight {
+  top: 190px;
+  right: 210px;
+}
+.nine {
+  top: 190px;
+  right: 120px;
+}
+.mul {
+  top: 193px;
+  right: 30px;
+  background: orange;
+  color: white;
+}
+.div {
+  top: 280px;
+  right: 30px;
+  background: orange;
+  color: white;
+}
+.zero {
+  top: 280px;
+  right: 300px;
+}
+.zero2 {
+  top: 280px;
+  right: 210px;
+}
