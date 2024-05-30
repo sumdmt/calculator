@@ -36,6 +36,8 @@ section {
   outline: none;
   float: left;
   left: 15px;
+  padding-right: 8px;
+  color: white;
 }
 .first {
   position: relative;
@@ -72,6 +74,7 @@ button {
   color: white;
   width: 160px;
 }
+
 .one {
   top: 10px;
   right: 300px;
